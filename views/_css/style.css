@@ -1,0 +1,283 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+button {
+	border-color: white;
+}
+
+body {
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    color: #929292;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-wrap: break-word;
+	word-wrap: break-word;
+	background: #F5F5F5;
+}
+
+.main-page {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.menu {
+	width: 100%;
+	background: #3facd6;
+}
+
+.menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul  li {
+	float: left;
+}
+
+.menu ul  li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 10px 30px;
+	display: block;
+}
+
+.wrap {
+	width: 100%;
+	text-align: center;
+	font-weight: 100;
+	margin-top: 150px;
+	padding: 30px;
+}
+
+.btn-primary {
+	width: 50%;
+	display: inline-block;
+    background: #f6ad3e;
+    color: #000;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border-radius: 4px;
+    margin: 15px 0;
+    font-weight: 700;
+    min-width: 250px;
+	font-size: 16px;
+	cursor: pointer;
+	border-color: transparent;
+}
+
+.btn-primary:hover {
+	cursor: pointer;
+	color: white;
+	background-color: black;
+	transition: 0.5s;
+	border-color: transparent;
+}
+
+.container-fluid {
+	width: 100%;
+	padding-top: 10px;
+    padding-right: 15px;
+	padding-left: 15px;
+    flex-flow: column;
+}
+
+.form-table {
+	margin: 0 0 1.3em 0;
+}
+
+.form-table th, 
+.form-table td,
+.list-table th,
+.list-table td {
+	padding: 5px;
+}
+
+.error, .form_error {
+	font-size: 12px !important;
+	color: red !important;
+}
+
+.alert {
+	background: yellow;
+	color: red;
+	padding: 5px;
+}
+
+.success {
+	font-size: 12px !important;
+	color: green !important;
+}
+
+.clearfix:after {
+	content: '.';
+	width: 100%;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+label {
+	cursor: pointer;
+}
+
+.field {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 22.42%;
+    margin: 35px;
+    padding: 15px 0;
+    background: #eaeaea;
+	border-radius: 4px;
+	color: black;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.field:hover {
+	color: white;
+	background-color: #8ac617;
+}
+
+
+.input-checked {
+	background-color: #8ac617;
+}
+
+.container-table {
+	width: 100%;
+	padding-top: 10px;
+    padding-right: 15px;
+	padding-left: 15px;
+    flex-flow: column;
+}
+
+@media (max-width: 768px) {
+	.field {
+		width: 100%;
+		margin: 5px 0;
+		padding: 15px 0px;
+	}
+}
+
+.steps {
+	display: inline-block;
+    margin: 0;
+	padding: 0 0 30px;
+	list-style-type: none;
+}
+
+.steps li.current {
+    font-weight: 700;
+    color: #fff;
+	background: #8ac617;
+}
+
+.steps li {
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 50px;
+    padding: 0 15px;
+    background: #eaeaea;
+}
+
+.steps {
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 30px;
+}
+
+.wporcamento-nav {
+	padding-top: 30px;
+	margin-bottom: 50px;
+    clear: both;
+}
+
+.wporcamento-nav .six.columns {
+    width: 50%;
+    float: left;
+    margin: 0;
+}
+
+.wporcamento-nav a {
+    display: inline-block;
+    border-radius: 50px;
+    color: #000;
+    background: #f6ad3e;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+a, a:hover, a:focus {
+	color: white;
+	text-decoration: none;
+	background-color: black;
+}
+
+.wporcamento-nav .btn-prosseguir {
+    background: #8ac617;
+}
+
+.wporcamento-textarea-container {
+    clear: both;
+    padding: 30px 15px 15px;
+}
+
+.wporcamento-textarea-container textarea {
+    background: #fff;
+}
+
+textarea {
+	min-height: 150px;
+	width: 100%;
+    line-height: 1.5;
+    resize: vertical;
+}
+
+
+textarea {
+    display: inline-block;
+    min-height: 40px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.8;
+    padding: 6px 12px;
+    vertical-align: middle;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #ddd;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+p {
+    margin: 0 0 20px;
+}
